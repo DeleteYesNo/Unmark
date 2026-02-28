@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime config & state (copy config.example.json to config.json)
+config.json
+title_state.json
+
+# Video files in input subdirectories (keep directory structure via .gitkeep)
+input/**/*.mp4
+input/**/*.avi
+input/**/*.mkv
+input/**/*.mov
+input/**/*.webm
+input/**/*.m4v
+
+# Output / processing directories
+output/
+processing/
+failed/
+
+# Unused style directories
+survival-style/
+wholesome-style/
+
+# Claude
+.claude/

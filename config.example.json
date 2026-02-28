@@ -1,0 +1,22 @@
+{
+    "cleaner_type": "lama",
+    "watch_interval": 3.0,
+    "shuffle_titles": true,
+    "ollama_model": "qwen3-vl:2b",
+    "ollama_url": "http://localhost:11434",
+    "ai_title_enabled": true,
+    "title_language": "en",
+    "title_rules": "",
+    "sora_wm_path": "",
+    "notes": {
+        "cleaner_type": "可选: 'lama' (快速) 或 'e2fgvi_hq' (高质量但慢)",
+        "watch_interval": "检查新文件的间隔（秒）",
+        "shuffle_titles": "是否随机选择标题",
+        "ollama_model": "用于自动分类的 Ollama 视觉模型",
+        "ollama_url": "Ollama API 地址",
+        "ai_title_enabled": "是否启用 AI 生成标题 (true/false)",
+        "title_language": "标题语言: en, zh, 或自定义",
+        "title_rules": "用户自定义的标题生成规则",
+        "sora_wm_path": "SoraWatermarkCleaner 的路径（留空则自动使用上层目录的 SoraWatermarkCleaner）"
+    }
+}
